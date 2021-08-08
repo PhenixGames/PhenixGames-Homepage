@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1440px) {
+    .main_right {
+        margin-left: -270px;
+    }
+}
+
+@media only screen and (max-width: 1156px) {
+    .main_left {
+        display: grid;
+        justify-content: center;
+        width: 100% !important;
+        margin: 40px 0 0 10px !important;
+    }
+    .main_right {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .main_left {
+        padding: 20px !important;
+    } 
+}
+
+@media only screen and (max-width: 540px) {
+    .main_left header h1 {
+        font-size: 3rem !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .main_left header h1 {
+        font-size: 2rem !important;
+    }
+    .main_left h1:first-of-type {
+        margin: -10px 0 0 0 !important;
+    }
+    .label_top {
+        margin-bottom: 20px;
+        font-size: 1rem !important;
+    }
+    .main_left h1:first-of-type span {
+        font-size: 1rem !important;
+        margin: 0 -5px 0 -22px !important;
+    }
+}

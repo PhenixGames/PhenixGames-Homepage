@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1083px) {
+    .gangwarsbody {
+        display: grid !important;
+        margin: 30px 0 !important;
+    }
+    .gangwars_right {
+        float: none !important;
+        width: 100% !important;
+        text-align: center;
+        padding: 10px;
+    }
+    .gangwars_left {
+        float: none !important;
+        width: 100% !important;
+    }
+    .gangwars_left video {
+        width: 50% !important;
+    }
+    .gangwars_left video:first-of-type {
+        transform: translate(-150px, 0) !important;
+    }
+    
+    .gangwars_left video:last-of-type {
+        transform: translate(150px, 0) !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gangwars_footer header {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .gangwars_footer main {
+        display: none;
+    }
+    .gangwars_left video {
+        width: 100% !important;
+    }
+    .gangwars_left video:first-of-type {
+        display: none;
+    }
+    .gangwars_left video:last-of-type {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .gangwars_right h1 {
+        font-size: 15vw !important;
+    }
+}

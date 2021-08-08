@@ -1,0 +1,23 @@
+@media only screen and (max-width: 630px) {
+    .nav_home_left img {
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .nav_home_left img {
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 20px 0 !important;
+    }
+    .nav_home_right {
+        float: none !important;
+        margin: 0 auto;
+        padding: 20px 10px !important;
+    }
+    .nav_home_socials_menu {
+        right: 0px !important;
+        margin: 20px 0 !important;
+    }
+}

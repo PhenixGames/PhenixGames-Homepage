@@ -1,0 +1,89 @@
+@import url('gangwarsbody-media.css');
+.gangwarsbody {
+    height: 80vh; width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.gangwars_right {
+    float: left;
+    width: 50%;
+}
+
+.gangwars_right h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.gangwars_right_text {
+    display: grid;
+    justify-content: center;
+}
+
+.gangwars_left {
+    width: 87%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.gangwars_left video {
+    box-shadow: 0px 8px 20px #00000050;
+    width: 600px;
+}
+
+.gangwars_left video:first-of-type,
+.gangwars_left video:last-of-type {
+    position: absolute;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.gangwars_left video:first-of-type {
+    transform: translate(-150px, 150px);
+}
+
+.gangwars_left video:last-of-type {
+    transform: translate(150px, -150px);
+}
+
+.gangwars_footer {
+    height: 60vh; width: 100%;
+    overflow-y: hidden;
+    background: var(--black);
+}
+
+.gangwars_footer header{
+    float: left;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 50px 0;
+}
+
+.gangwars_footer header svg {
+    margin: 0 10px 0 0;
+}
+
+.gangwars_footer header p {
+    margin: 9px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.gangwars_footer main{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url('../../../../img/Homepage/gangwarsbody/gangwars_footer.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.gangwars_footer header h2 {
+    font-size: 2.4rem;
+}

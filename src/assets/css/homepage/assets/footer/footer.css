@@ -1,0 +1,35 @@
+@import url('footer-media.css');
+.footerbody {
+    height: max-content;
+    width: 100%;
+    background: var(--black);
+    padding: 70px 50px;
+}
+
+.footerbody div {
+    display: flex;
+}
+
+.footer_left {
+    position: absolute;
+    justify-content: left;
+}
+
+.footer_left a {
+    margin: 0 30px;
+}
+
+.footer_center {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.footer_right {
+    margin-top: -50px;
+    justify-content: right;
+    float: right;
+}
+
+.footer_center img {
+    width: 100px;
+}
