@@ -8,7 +8,7 @@
             <img :src="bd_logo" />
         </div>
         <div class="footer_right">
-            &copy;{{lang.projectname}} | Created by&nbsp;<strong>&copy;<a href="//www.blackdayz.de/" class="link" target="_blank" rel="norefferer noopener">www.blackdayz.de</a></strong>
+            &copy;{{lang.projectname}} | Created by&nbsp;<strong>&copy;<a href="https://www.blackdayz.de/" class="link" target="_blank" rel="norefferer noopener">www.blackdayz.de</a></strong>
         </div>
     </footer>
 </template>
