@@ -41,11 +41,11 @@
     },
     "forum": {
       "home": {
-        "route": "/forum",
+        "route": "",
         "name": "Forum Home"
       },
       "forumview": {
-        "route": "/forum/view",
+        "route": "",
         "name": "View Forum post"
       }
     }
