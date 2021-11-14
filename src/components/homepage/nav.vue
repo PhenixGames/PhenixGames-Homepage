@@ -7,8 +7,6 @@
       />
     </div>
     <div class="nav_home_right text-transform-up">
-      <router-link :to="{path: home}" class="white text-deco-none">{{lang.nav.home}}</router-link
-      ><span class="white thin">-</span>
       <router-link :to="{path: forum}" class="white text-deco-none">{{lang.nav.forum}}</router-link>
       <a class="cursor-pointer white nav_home_socials" href="#">
         <span class="nav_home_socials_hover">
