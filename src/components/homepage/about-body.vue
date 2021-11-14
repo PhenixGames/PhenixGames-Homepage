@@ -4,7 +4,7 @@
       <center>
         <header>
           <div class="aboutbody_heads">
-            <img src="../../assets/img/Homepage/aboutbody/Ghoster599PB.png" />
+            <img src="../../assets/img/Homepage/aboutbody/Ghoster599PB.png" alt="Ghoster599 profilepicture"/>
             <p>{{ lang.about.user.pl1 }}</p>
             <p>{{ lang.about.pl }}</p>
             <p>
@@ -12,7 +12,7 @@
             </p>
           </div>
           <div class="aboutbody_heads">
-            <img src="../../assets/img/Homepage/aboutbody/Ghoster599PB.png" />
+            <img src="../../assets/img/Homepage/aboutbody/mittelblut9.png" alt="Mittelblut9 profilepicture"/>
             <p>{{ lang.about.user.pl2 }}</p>
             <p>{{ lang.about.pl }}</p>
             <p>
@@ -20,7 +20,7 @@
             </p>
           </div>
           <div class="aboutbody_heads">
-            <img src="../../assets/img/Homepage/aboutbody/Ghoster599PB.png" />
+            <img src="../../assets/img/Homepage/aboutbody/veqtive.png" alt="Veqtive profilepicture"/>
             <p>{{ lang.about.user.pl3 }}</p>
             <p>{{ lang.about.pl }}</p>
             <p>
@@ -30,7 +30,7 @@
         </header>
         <main>
           <div class="aboutbody_heads">
-            <img src="../../assets/img/Homepage/aboutbody/samurai.png" />
+            <img src="../../assets/img/Homepage/aboutbody/samurai.png" alt="StreetSamurai profilepicture"/>
             <p>{{ lang.about.user.ctn1 }}</p>
             <p>{{ lang.about.ct }}</p>
             <p>
