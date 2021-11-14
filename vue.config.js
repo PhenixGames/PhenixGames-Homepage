@@ -10,6 +10,6 @@ module.exports = {
         port: process.env.VUE_APP_PORT
     },
     publicPath: process.env.NODE_ENV === 'production'
-    ? '/work/PhenixGamesHomepage/dist/'
+    ? 'work/PhenixGamesHomepage/dist/'
     : '/'
 }
