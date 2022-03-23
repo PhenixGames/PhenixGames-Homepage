@@ -2,7 +2,7 @@
   <nav class="nav_home">
     <div class="nav_home_left">
       <img
-        src="//www.blackdayz.de/Library/pg/logo/PhenixGames_Logo_transparent.png"
+        src="../../assets/img/logo/PhenixGames_Logo_no_text_transparent.png"
         alt="PhenixGames"
       />
     </div>
