@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest ../phenixgames_web/dist --mode production && cd ../phenixgames_web/ && mv dist/* ./ && rm -rf dist"
+    "build": "vue-cli-service build --dest ../phenixgames_web/dist --mode production && cd ../phenixgames_web/ && rm index.html && rm BlackCSS.css && rm -rf css/ && rm -rf img/ && rm -rf media && mv dist/* ./ && rm -rf dist"
   },
   "dependencies": {
     "axios": "^0.21.1",
