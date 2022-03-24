@@ -1,8 +1,9 @@
 <template>
     <homepageNav />
     <mainbody />
-    <roleplaybody />
-    <gangwarsbody />
+    <currentstate />
+    <!-- <roleplaybody />
+    <gangwarsbody /> -->
     <aboutbody />
     <footerbody />
 </template>
@@ -14,11 +15,13 @@
     import gangwarsbody from '../../components/homepage/gangwars-body.vue';
     import aboutbody from '../../components/homepage/about-body.vue';
     import footerbody from '../../components/homepage/footer-body.vue';
+    import currentstate from '../../components/homepage/current_state.vue';
 
     export default {
         components: {
             homepageNav,
             mainbody,
+            currentstate,
             roleplaybody,
             gangwarsbody,
             aboutbody,

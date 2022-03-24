@@ -1,0 +1,13 @@
+.currentstatebody {
+    height: 80vh;
+    margin: 100px 0;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentstatebody img {
+    display: block;
+    margin: 0 auto;
+}
