@@ -16,7 +16,12 @@ const routes = [
         path: config.routing.legal.impressum.route,
         name: config.routing.legal.impressum.name,
         component: () => import ('../views/legal/impressum.vue')
-    }
+    },
+	{
+		path: '/discord',
+		name: 'Discord',
+		beforeEnter() {location.href = "https://discord.gg/SBC3Edh"}
+	}
 ]
 
 const router = createRouter({
