@@ -16,7 +16,7 @@
             <p>{{ lang.about.user.pl2 }}</p>
             <p>{{ lang.about.pl }}</p>
             <p>
-              <i>{{ lang.about.wd }}</i>
+              <i>{{ lang.about.sd }}</i>
             </p>
           </div>
         </header>

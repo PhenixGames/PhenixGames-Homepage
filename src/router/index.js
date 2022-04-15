@@ -20,7 +20,7 @@ const routes = [
 	{
 		path: '/discord',
 		name: 'Discord',
-		beforeEnter() {location.href = "https://discord.gg/SBC3Edh"}
+		component: () => location.href = "https://discord.gg/SBC3Edh"
 	}
 ]
 
