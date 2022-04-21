@@ -4,8 +4,7 @@
         <div class="main_left white">
             <header>
                 <label class="bold label_top">GTA 5</label>
-                <h1 class="bold"><span>{{lang.home.s}}</span>{{lang.home.rp}} &</h1>
-                <h1 class="bold">{{lang.home.gw}}</h1>
+                <h1 class="bold"><span>{{lang.home.s}}</span>{{lang.home.rp}}&nbsp;&</h1>
                 <span>{{lang.home.txt}}</span>
             </header>
             <main>

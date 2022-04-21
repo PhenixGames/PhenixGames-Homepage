@@ -2,21 +2,31 @@
     .aboutbody {
         position: relative;
     }
+
     .aboutbody header,
     .aboutbody main {
         margin: 100px 0;
         display: flow-root !important;
     }
+
     .aboutbody img {
         margin: 0 20px !important;
     }
+
     .aboutbody_heads {
         width: fit-content;
         margin: 20px 0;
         display: inline-block;
         justify-content: center;
     }
+
     .aboutbody header::after {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .aboutbody img {
+        width: 80% !important;
     }
 }

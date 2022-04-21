@@ -1,3 +1,5 @@
+@import url('./currentstate-media.css');
+
 .currentstatebody {
     height: 80vh;
     margin: 100px 0;
@@ -10,4 +12,8 @@
 .currentstatebody img {
     display: block;
     margin: 0 auto;
+}
+
+.currentstatebody h1 {
+    font-size: 3vw;
 }
