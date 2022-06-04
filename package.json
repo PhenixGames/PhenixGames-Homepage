@@ -8,7 +8,7 @@
     "pg_build": "cd ../phenixgames_web/ && rm index.html && rm BlackCSS.css && rm -rf css/ && rm -rf img/ && rm -rf media/ && rm -rf fonts/ && rm -rf js/ && mv dist/* ./ && rm -rf dist && cd ../PhenixGames-Homepage && vue-cli-service build --dest ../phenixgames_web/dist --mode production"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.27.2",
     "vue": "^3.2.36",
     "core-js": "^3.22.8",
     "vue-router": "^4.0.15"
