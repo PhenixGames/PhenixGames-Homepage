@@ -16,27 +16,19 @@
             <p>{{ lang.about.user.pl2 }}</p>
             <p>{{ lang.about.pl }}</p>
             <p>
-              <i>{{ lang.about.wd }}</i>
-            </p>
-          </div>
-          <div class="aboutbody_heads">
-            <img src="../../assets/img/Homepage/aboutbody/veqtive.png" alt="Veqtive profilepicture"/>
-            <p>{{ lang.about.user.pl3 }}</p>
-            <p>{{ lang.about.pl }}</p>
-            <p>
-              <i>{{ lang.about.td }}</i>
+              <i>{{ lang.about.sd }}</i>
             </p>
           </div>
         </header>
         <main>
-          <div class="aboutbody_heads">
+          <!-- <div class="aboutbody_heads">
             <img src="../../assets/img/Homepage/aboutbody/samurai.png" alt="StreetSamurai profilepicture"/>
             <p>{{ lang.about.user.ctn1 }}</p>
             <p>{{ lang.about.ct }}</p>
             <p>
               <i>{{ lang.about.id }}</i>
             </p>
-          </div>
+          </div> -->
         </main>
       </center>
     </div>

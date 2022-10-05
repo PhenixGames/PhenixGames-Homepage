@@ -1,0 +1,11 @@
+@media only screen and (max-width: 540px) {
+    .currentstatebody {
+        width: 100vw !important;
+        height: 40vh !important;
+        display: block !important;
+    }
+
+    .currentstatebody img {
+        width: 80% !important;
+    }
+}

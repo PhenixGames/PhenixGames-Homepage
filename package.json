@@ -1,21 +1,22 @@
 {
   "name": "pg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest ./dist --mode production"
+	"build": "vue-cli-service build --dest ../phenixgames_web/dist --mode production",
+    "pg_build": "cd ../phenixgames_web/ && rm index.html && rm BlackCSS.css && rm -rf css/ && rm -rf img/ && rm -rf media/ && rm -rf fonts/ && rm -rf js/ && mv dist/* ./ && rm -rf dist && cd ../PhenixGames-Homepage && vue-cli-service build --dest ../phenixgames_web/dist --mode production"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0"
+    "axios": "^1.0.0",
+    "vue": "^3.2.40",
+    "core-js": "^3.25.5",
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.7",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.2.40"
   }
 }

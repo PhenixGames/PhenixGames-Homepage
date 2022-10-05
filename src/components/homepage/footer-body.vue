@@ -5,10 +5,10 @@
             <router-link :to="{path: impressum}">{{lang.footer.im}}</router-link>
         </div>
         <div class="footer_center">
-            <img :src="bd_logo" />
+            <img src="../../assets/img/logo/PhenixGames_Logo_no_text.svg" />
         </div>
         <div class="footer_right">
-            &copy;{{lang.projectname}} | Created by&nbsp;<strong>&copy;<a href="https://www.blackdayz.de/" class="link" target="_blank" rel="norefferer noopener">www.blackdayz.de</a></strong>
+            &copy;{{lang.projectname}}
         </div>
     </footer>
 </template>
@@ -29,8 +29,7 @@ export default {
         return {
             datenschutz: config.routing.legal.datenschutz.route,
             impressum: config.routing.legal.impressum.route,
-            lang: language,
-            bd_logo: config.links.bd_logo
+            lang: language
         }
     }
 }
