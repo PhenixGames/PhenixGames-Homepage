@@ -1,0 +1,38 @@
+{
+    "bcrypt": {
+        "saltRounds": 0
+    },
+    "routing": {
+        "home": {
+            "route": "/",
+            "name": "Home"
+        },
+        "legal": {
+            "impressum": {
+                "route": "/imprint",
+                "name": "Impressum"
+            },
+            "datenschutz": {
+                "route": "/privacy",
+                "name": "Datenschutz"
+            }
+        },
+        "socials": {
+            "discord": {
+                "name": "Discord",
+                "link": "https://discord.gg/kTYyYg8xry",
+                "route": "/discord"
+            },
+            "youtube": {
+                "name": "YouTube",
+                "link": "https://www.youtube.com/channel/UCcaZGaoo2h9oV5r7JfuEvvw",
+                "route": "/youtube"
+            },
+            "instagram": {
+                "name": "Instagram",
+                "link": "https://www.instagram.com/phenixgames.de/",
+                "route": "/instagram"
+            }
+        }
+    }
+}
