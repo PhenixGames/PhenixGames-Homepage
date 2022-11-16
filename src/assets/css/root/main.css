@@ -2,21 +2,21 @@
 @import url('./root.css');
 
 * {
-  outline: none;
-  box-sizing: border-box;
+    outline: none;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  overflow-x: hidden;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 a {
-  color: inherit;
+    color: inherit;
 }
 
 #app {
-  font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }

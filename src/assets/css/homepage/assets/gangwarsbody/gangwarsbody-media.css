@@ -19,7 +19,7 @@
     .gangwars_left video:first-of-type {
         transform: translate(-150px, 0) !important;
     }
-    
+
     .gangwars_left video:last-of-type {
         transform: translate(150px, 0) !important;
     }
@@ -44,7 +44,6 @@
         display: none;
     }
 }
-
 
 @media only screen and (max-width: 425px) {
     .gangwars_right h1 {

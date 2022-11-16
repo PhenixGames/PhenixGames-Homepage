@@ -4,7 +4,7 @@
         margin: 30px 0 !important;
     }
     .roleplay_left {
-        width: 100%  !important;
+        width: 100% !important;
         text-align: center;
         padding: 10px;
     }
@@ -19,7 +19,7 @@
     .roleplay_right video:first-of-type {
         transform: translate(-160px, 0) !important;
     }
-    
+
     .roleplay_right video:last-of-type {
         transform: translate(-350px, 0) !important;
     }

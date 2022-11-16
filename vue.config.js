@@ -1,15 +1,17 @@
 module.exports = {
-    chainWebpack: config => {
-        config.plugin('html').tap(args => {
+    chainWebpack: (config) => {
+        config.plugin('html').tap((args) => {
             args[0].title = process.env.VUE_APP_TITLE;
             return args;
-        })
+        });
     },
     devServer: {
-        proxy: process.env.VUE_APP_HTTP + process.env.VUE_APP_DOMAIN + ':' + process.env.VUE_APP_BACKENDPORT,
-        port: process.env.VUE_APP_PORT
+        proxy:
+            process.env.VUE_APP_HTTP +
+            process.env.VUE_APP_DOMAIN +
+            ':' +
+            process.env.VUE_APP_BACKENDPORT,
+        port: process.env.VUE_APP_PORT,
     },
-    publicPath: process.env.NODE_ENV === 'production'
-    ? ''
-    : '/'
-}
+    publicPath: process.env.NODE_ENV === 'production' ? '' : '/',
+};

@@ -11,7 +11,7 @@
 }
 
 .aboutbody main::after {
-    content: "";
+    content: '';
     clear: both;
     display: table;
 }
@@ -31,6 +31,6 @@
 }
 
 .aboutbody_heads p:not(:first-of-type) {
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 700;
 }

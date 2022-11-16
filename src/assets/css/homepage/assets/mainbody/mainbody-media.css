@@ -17,16 +17,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .main_left header{
+    .main_left header {
         width: 70vw !important;
-    } 
+    }
 }
 
 @media only screen and (max-width: 630px) {
-    .main_left header{
+    .main_left header {
         padding: 20px !important;
         width: 90vw !important;
-    } 
+    }
 }
 
 @media only screen and (max-width: 540px) {
