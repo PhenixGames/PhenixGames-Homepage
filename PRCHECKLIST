@@ -1,0 +1,10 @@
+--target development +title+ **Dev Branch checks**
+--target development +task+ Prettier durchgelaufen?
+--target development +task+ Alle Checks erfolgreich abgeschlossen?
+--target development +task+ Keine Vulnerablen Tokens o.ä. im Code?
+--target development +task+ Features getestet?
+
+--target main +title+ **Live Branch checks**
+--target main +task+ Features getestet?
+--target main +task+ Features funktionieren einwandfrei?
+--target main +task+ Alle Checks erfolgreich abgeschlossen?
