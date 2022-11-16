@@ -1,15 +1,13 @@
 <template>
     <footer class="footerbody white">
         <div class="footer_left left">
-            <router-link :to="{path: datenschutz}">{{lang.footer.ds}}</router-link>
-            <router-link :to="{path: impressum}">{{lang.footer.im}}</router-link>
+            <router-link :to="{ path: datenschutz }">{{ lang.footer.ds }}</router-link>
+            <router-link :to="{ path: impressum }">{{ lang.footer.im }}</router-link>
         </div>
         <div class="footer_center">
             <img src="../../assets/img/logo/PhenixGames_Logo_no_text.svg" />
         </div>
-        <div class="footer_right">
-            &copy;{{lang.projectname}}
-        </div>
+        <div class="footer_right">&copy;{{ lang.projectname }}</div>
     </footer>
 </template>
 
@@ -29,8 +27,8 @@ export default {
         return {
             datenschutz: config.routing.legal.datenschutz.route,
             impressum: config.routing.legal.impressum.route,
-            lang: language
-        }
-    }
-}
+            lang: language,
+        };
+    },
+};
 </script>

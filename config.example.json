@@ -1,53 +1,53 @@
 {
-  "sessionSecret": "",
-  "frontend": {
-    "host": "http://",
-    "port": "",
-    "domain": "",
-    "baseURL": "/",
-    "currentserver": true
-  },
-  "backend": {
-    "host": "",
-    "port": "",
-    "domain": "",
-    "baseURL": "/",
-    "currentserver": false
-  },
-  "env": "development",
-  "bcrypt": {
-    "saltRounds": 0
-  },
-  "routing": {
-    "home": {
-      "route": "/",
-      "name": "Home"
+    "sessionSecret": "",
+    "frontend": {
+        "host": "http://",
+        "port": "",
+        "domain": "",
+        "baseURL": "/",
+        "currentserver": true
     },
-    "legal": {
-      "impressum": {
-        "route": "/legal/impressum",
-        "name": "Impressum"
-      },
-      "datenschutz": {
-        "route": "/legal/datenschutz",
-        "name": "Datenschutz"
-      }
+    "backend": {
+        "host": "",
+        "port": "",
+        "domain": "",
+        "baseURL": "/",
+        "currentserver": false
     },
-    "socials": {
-      "yt": "//www.youtube.com/",
-      "ig": "//www.instagram.com/",
-      "dc": "//discord.gg/",
-      "ts": ""
+    "env": "development",
+    "bcrypt": {
+        "saltRounds": 0
     },
-    "forum": {
-      "home": {
-        "route": "",
-        "name": "Forum Home"
-      },
-      "forumview": {
-        "route": "",
-        "name": "View Forum post"
-      }
+    "routing": {
+        "home": {
+            "route": "/",
+            "name": "Home"
+        },
+        "legal": {
+            "impressum": {
+                "route": "/legal/impressum",
+                "name": "Impressum"
+            },
+            "datenschutz": {
+                "route": "/legal/datenschutz",
+                "name": "Datenschutz"
+            }
+        },
+        "socials": {
+            "yt": "//www.youtube.com/",
+            "ig": "//www.instagram.com/",
+            "dc": "//discord.gg/",
+            "ts": ""
+        },
+        "forum": {
+            "home": {
+                "route": "",
+                "name": "Forum Home"
+            },
+            "forumview": {
+                "route": "",
+                "name": "View Forum post"
+            }
+        }
     }
-  }
 }

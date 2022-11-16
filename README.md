@@ -1,6 +1,6 @@
 # PhenixGames Homepage
 
-## Explaination ##
+## Explaination
 
 ```
 All requirerd depedencies from the project and other stuff
@@ -11,7 +11,7 @@ public/*
 
 All required scripts and vue views to run the actual website
 src/
-    
+
     assets/ //all asset files
     components/ //all components with specified html content
     router/ //router file to handle and route user requests
@@ -26,20 +26,25 @@ Important and sensitive data to run the website
 .gitngore
 
 ```
+
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).

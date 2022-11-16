@@ -1,16 +1,15 @@
 <template>
-  <router-view />
+    <router-view />
 </template>
 
 <script>
 export default {
-  data: () => {
-    return {
-    }
-  },
-}
+    data: () => {
+        return {};
+    },
+};
 </script>
 
 <style>
-@import url("assets/css/root/main.css");
+@import url('assets/css/root/main.css');
 </style>
