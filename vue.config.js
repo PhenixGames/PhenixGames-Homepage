@@ -5,13 +5,5 @@ module.exports = {
             return args;
         });
     },
-    devServer: {
-        proxy:
-            process.env.VUE_APP_HTTP +
-            process.env.VUE_APP_DOMAIN +
-            ':' +
-            process.env.VUE_APP_BACKENDPORT,
-        port: process.env.VUE_APP_PORT,
-    },
     publicPath: process.env.NODE_ENV === 'production' ? '' : '/',
 };
