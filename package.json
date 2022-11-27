@@ -19,6 +19,6 @@
         "@vue/cli-plugin-router": "^5.0.7",
         "@vue/cli-service": "^5.0.8",
         "@vue/compiler-sfc": "^3.2.41",
-        "prettier": "^2.7.1"
+        "prettier": "^2.8.0"
     }
 }
