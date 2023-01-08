@@ -7,7 +7,7 @@
         <div class="footer_center">
             <img src="../../assets/img/logo/PhenixGames_Logo_no_text.svg" />
         </div>
-        <div class="footer_right">&copy;{{ lang.projectname }}</div>
+        <div class="footer_right">&copy;{{ lang.projectname }} {{ getYear() }}</div>
     </footer>
 </template>
 
@@ -29,6 +29,11 @@ export default {
             impressum: config.routing.legal.impressum.route,
             lang: language,
         };
+    },
+    methods: {
+        getYear() {
+            return new Date().getFullYear();
+        },
     },
 };
 </script>
